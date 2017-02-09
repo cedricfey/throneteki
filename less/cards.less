@@ -12,7 +12,7 @@
 .card {
   position: relative;
   border-radius: 4px;
-  box-shadow: 0 0 12px rgba(0,0,0,0.4), inset 0 0 0 1px rgba(255,255,255,0.1);
+  box-shadow: 0 0 12px rgba(0,0,0,0.8);
   overflow: hidden;
   z-index: @layer-cards;
 
@@ -27,23 +27,23 @@
   }
 
   &.selected {
-    box-shadow: 0 0 1px 4px @brand-primary;
+    box-shadow: 0 0 2px 1px @brand-primary;
   }
 
   &.new {
-    box-shadow: 0 0 1px 2px @brand-info;
+    box-shadow: 0 0 2px 1px @brand-info;
   }
 
   &.controlled {
-    box-shadow: 0 0 1px 2px @brand-warning;
+    box-shadow: 0 0 2px 1px @brand-warning;
   }
 
   &.challenge {
-    box-shadow: 0 0 1px 2px @brand-danger;
+    box-shadow: 0 0 2px 1px @brand-danger;
   }
 
   &.stealth {
-    box-shadow: 0 0 1px 2px #c14e15;
+    box-shadow: 0 0 2px 1px #c14e15;
   }
 }
 
@@ -75,8 +75,8 @@
 }
 
 .card-large {
-  width: 220px;
-  height: 307px;
+  width: 300px;
+  height: 420px;
   position: absolute;
   top: 0;
   right: 0;
@@ -85,8 +85,8 @@
 }
 
 .card-large-horizontal {
-  width: 307px;
-  height: 220px;
+  width: 420px;
+  height: 300px;
   position: relative;
   margin-right: 5px;
   margin-top: 5px;
